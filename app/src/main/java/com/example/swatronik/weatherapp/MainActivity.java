@@ -74,7 +74,8 @@ public class MainActivity extends AppCompatActivity {
         else {
             for (RealmGeo rg: storeGeo) {
                 coordinates=rg;
-        }}
+        }
+}
 
         Calendar c = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHH");
